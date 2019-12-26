@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.mainBox{
+  float: left;
+  width: 350px;
+  text-align: left;
+  margin: 20px;
+  min-height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 1px 0px 11px #403939;
+}
+.mainBox:hover .blackBox{
+  visibility: visible;
+}
+h2{
+  margin:0;
+  padding: 0;
+}
+.blackBox{
+  position: absolute;
+  height: 94%;
+    z-index: 99999;
+    color: #fff;
+    width: 94%;
+    border-radius: 20px;
+    visibility: hidden;
+    padding: 3%;
+    background-color: rgba(0,0,0, .8);
+}
+ol{
+  margin: 0 0 0 15px;
+  padding: 10px;
+}
+li, p{
+  font-size: 12px;
+}
+h2{
+  font-size: 16px;
+}
